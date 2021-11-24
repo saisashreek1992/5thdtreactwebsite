@@ -13,7 +13,7 @@ const Footer = () => {
                     <div className='row'>
                         <div className='col p-3 m-4'>
                             <Link to="/home">
-                                <img src={Logo} class="img-fluid w-2" alt="5thdtlogo" />
+                                <img src={Logo} className="img-fluid w-5" alt="5thdtlogo" />
                             </Link>
                         </div>
                         <div className='col'>

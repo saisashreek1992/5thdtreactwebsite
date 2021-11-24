@@ -10,7 +10,7 @@ const Header = () => {
                 <div className="row position-relative align-items-start">
                     <Link to="/home">
                         <div className="col position-absolute align-self-start">
-                            <img src={Logo} class="img-fluid w-5 order-first" alt="5thdtlogo" />
+                            <img src={Logo} className="img-fluid w-5 order-first" alt="5thdtlogo" />
                         </div>
                     </Link>
                 </div>
