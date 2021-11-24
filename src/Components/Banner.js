@@ -6,11 +6,11 @@ import NavBar from "./NavBar";
 const Banner = () => {
     return (
         <div className="row">
-            <h3>This is Banner row</h3>
-            <div className="col">
+
+            <div className="col-lg-11">
                 <ImgSlider />
             </div>
-            <div className="col">
+            <div className="col-lg-1">
                 <NavBar />
             </div>
         </div>
