@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import './nav.css';
+import Services from './Components/Services'
 import App from './App';
 import {
   BrowserRouter as Router,
@@ -26,7 +27,7 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="home" element={<App />} />
-      {/* <Route path="/services" element={<Services />} /> */}
+      <Route path="/services" element={<Services />} />
     </Routes>
     
   </Router>,
