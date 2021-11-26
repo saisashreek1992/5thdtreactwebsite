@@ -6,7 +6,7 @@ import '../Assets/styles.css';
 import Servicesitem from './Servicesitem'
 import ImgSlider from "./ImgSlider";
 import NavBar from "./NavBar";
-
+import Footer from './Footer';
 const Services = (props) => {
     return (
         <div className="container-fluid">
@@ -21,6 +21,7 @@ const Services = (props) => {
                 <NavBar />
             </div>
         </div>
+        <Footer />
         </div>
     );
 };
