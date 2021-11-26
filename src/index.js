@@ -22,7 +22,6 @@ import {
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'popper.js';
-import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <Router>
