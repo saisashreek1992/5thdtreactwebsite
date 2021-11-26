@@ -2,3 +2,11 @@
     padding: 8rem;
     margin: 5rem;
 }
+
+.team-img {
+    width: 25rem !important;
+    height: auto;
+    margin: 0;
+    align-items: center;
+    object-fit: contain;
+}

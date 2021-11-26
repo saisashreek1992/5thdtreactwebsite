@@ -9,14 +9,7 @@ import App from './App';
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  Navigate,
-  Link,
-  Outlet,
-  useParams,
-  NavLink,
-  useNavigate,
-  useLocation
+  Route
 } from "react-router-dom";
 
 import 'bootstrap';
@@ -28,6 +21,7 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="home" element={<App />} />
+      <Route path="/about" element={<About />} />
       <Route path="/services" element={<Services />} />
       <Route path="/about" element={<About />} />
       <Route path="/contactus" element={<Contactus />} />
