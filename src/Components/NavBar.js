@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from "react-router-dom";
 const nav_show=()=>{
     document.body.classList.toggle('navigation-is-open');
 }
@@ -7,7 +7,7 @@ const nav_show=()=>{
 
 const NavBar = () => {
     return (<div className="col-md-2  bg-dark navbar" >
-      	<a href="#cd-nav" className="cd-nav-trigger" onClick={nav_show}> Menu 
+      	<a className="cd-nav-trigger" onClick={nav_show}> Menu 
 		<span className="cd-nav-icon"></span>
 
 		<svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54">
@@ -22,10 +22,10 @@ const NavBar = () => {
 
 				<nav>
 					<ul className="cd-primary-nav">
-						<li><a href="#0" className="selected">Home</a></li>
-						<li><a href="#0">Our services</a></li>
-						<li><a href="#0">Our projects</a></li>
-						<li><a href="#0">Contact us</a></li>
+                        <li>  <Link className="selected" to="/home">Home</Link></li>
+                        <li>  <Link className="" to="/about"> About Us</Link></li>
+						<li>  <Link className="" to="/services"> Our Services</Link></li>
+						<li>  <Link className="" to="/contact_us"> Contact Us</Link></li>
 					</ul>
 				</nav>
 			</div>
