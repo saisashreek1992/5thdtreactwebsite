@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 import Footer from '../../Components/Footer';
-
+import NavBar from "../NavBar";
 import Team from "./Team";
 import SubHeader from "./SubHeader";
 
@@ -29,10 +29,7 @@ const About = () => {
                 </div>
             </div>
             <Team />
-            <NavLink className="btn btn-success p-2 m-5" to="/home">
-                {" "}
-                Home
-            </NavLink>
+            <NavBar />
             <Footer />
         </div>
     );

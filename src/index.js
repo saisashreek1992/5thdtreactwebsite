@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import './nav.css';
 import Services from './Components/Services'
-import About from './Components/About'
+import About from './Components/Pages/About'
 import Contactus from './Components/Contactus'
 import App from './App';
 import {

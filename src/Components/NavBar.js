@@ -8,8 +8,7 @@ const nav_show = () => {
 const NavBar = () => {
     return (
         <div className="col-md-2  bg-dark navbar">
-          
-            <NavLink to="" className="cd-nav-trigger" onClick={nav_show}>
+            <NavLink to="#cd-nav" className="cd-nav-trigger" onClick={nav_show}>
                 {" "}
                 Menu
                 <span className="cd-nav-icon"></span>
@@ -41,18 +40,51 @@ const NavBar = () => {
                         <nav>
                             <ul className="cd-primary-nav">
                                 <li>
-                                    <NavLink to="/" className="" onClick={nav_show}>
+                                    <NavLink 
+                                    style={({ isActive }) => {
+                                        return {
+                                            color: isActive ? "#FAFAFA" : "",
+                                        };
+                                      }}
+                                    to="/home" onClick={nav_show}>
                                         Home
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to="/services" onClick={nav_show}>Our services</NavLink>
+                                    <NavLink
+                                      style={({ isActive }) => {
+                                        return {
+                                            color: isActive ? "#FAFAFA" : "",
+                                        };
+                                      }}
+                                     to="/about" onClick={nav_show}>About</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to="/about" onClick={nav_show}>About</NavLink>
+                                    <NavLink
+                                      style={({ isActive }) => {
+                                        return {
+                                            color: isActive ? "#FAFAFA" : "",
+                                        };
+                                      }}
+                                     to="/services" onClick={nav_show}>Our services</NavLink>
                                 </li>
+                                {/* <li>
+                                    <NavLink
+                                      style={({ isActive }) => {
+                                        return {
+                                            color: isActive ? "#FAFAFA" : "",
+                                        };
+                                      }}
+                                     to="/" onClick={nav_show}>Our projects</NavLink>
+                                </li> */}
                                 <li>
-                                    <NavLink to="/contactus" onClick={nav_show}>Contact us</NavLink>
+                                    <NavLink
+                                      style={({ isActive }) => {
+                                        return {
+                                            color: isActive ? "#FAFAFA" : "",
+                                        };
+                                      }}
+                                     to="/contactus" onClick={nav_show}>Contact us</NavLink>
                                 </li>
                             </ul>
                         </nav>
