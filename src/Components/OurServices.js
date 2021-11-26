@@ -1,65 +1,55 @@
 import React from "react";
-import logo from '../logo.svg';
+import logo from "../logo.svg";
+
+import ServiceList from "./ServiceList";
+
 const OurServices = () => {
-  return (
-    <div className="row justify-content-start px-5 my-5 ">
-      <center>
-  
-        <h2 className="px-3 my-3">Our Services</h2>
-      </center>
-      <div className="col-md-4  px-3 my-3">
-        <div className="card">
-          <div className="card-body">
-          <img src={logo}  className="card-img-top" alt="logo"/>
-            <h5 className="card-title">Card title 1</h5>
-            <p className="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-          </div>
+    const ServiceLists = [
+        {
+            serviceId: "service1",
+            serviceLogo: { logo },
+            serviceTitle: "Education",
+            serviceInfo:
+                "Built on our Motto - Education for all, we have developed solutions that suit the present day requirement and in compliance with the new education policy 2020.",
+        },
+        {
+            serviceId: "service2",
+            serviceLogo: { logo },
+            serviceTitle: "Hospitality",
+            serviceInfo:
+                "We have developed customized applications for hotels and hospitals and curtail the use of paper. 5thDT's vision is to help enterprises Go Green.",
+        },
+        {
+            serviceId: "service3",
+            serviceLogo: { logo },
+            serviceTitle: "Application Development",
+            serviceInfo:
+                "We provide mobility solutions for both the platforms including Native App Development (Android & iOS) and Hybrid App Development for a different spectrum of businesses who are wishing to double their ROI by having chartbuster mobile applications.",
+        },
+        {
+            serviceId: "service4",
+            serviceLogo: { logo },
+            serviceTitle: "2D Animation",
+            serviceInfo:
+                "Our 2D animation team specializes in creating content for kids and TV series. We also specialize in making E-Learning content that is SCORM compliant.",
+        },
+        {
+            serviceId: "service5",
+            serviceLogo: { logo },
+            serviceTitle: "UI & UX",
+            serviceInfo:
+                "Inappropriate behavior is often laughed off as boys will be boys,” women face higher conduct standards especially in the workplace that’s why.",
+        },
+    ];
+
+    return (
+        <div className="row justify-content-start px-5 my-5 ">
+            <center>
+                <h2 className="px-3 my-3">Our Services</h2>
+            </center>
+            <ServiceList services = {ServiceLists}/>
         </div>
-      </div>
-      <div className="col-md-4  px-3 my-3">
-        <div className="card">
-        <img src={logo}  className="card-img-top" alt="logo"/>
-          <div className="card-body">
-            <h5 className="card-title">Card title 2</h5>
-            <p className="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="col-md-4  px-3 my-3">
-        <div className="card">
-        <img src={logo}  className="card-img-top" alt="logo"/>
-          <div className="card-body">
-            <h5 className="card-title">Card title 3</h5>
-            <p className="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="col-md-4 px-3 my-3">
-        <div className="card">
-        <img src={logo}  className="card-img-top" alt="logo"/>
-          <div className="card-body">
-            <h5 className="card-title">Card title 4</h5>
-            <p className="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+    );
 };
 
 export default OurServices;

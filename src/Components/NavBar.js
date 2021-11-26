@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink} from "react-router-dom";
 
 const nav_show = () => {
     document.body.classList.toggle("navigation-is-open");
@@ -7,10 +8,10 @@ const nav_show = () => {
 const NavBar = () => {
     return (
         <div className="col-md-2  bg-dark navbar">
-            <a href="#cd-nav" class="cd-nav-trigger" onClick={nav_show}>
+            <NavLink to="#cd-nav" className="cd-nav-trigger" onClick={nav_show}>
                 {" "}
                 Menu
-                <span class="cd-nav-icon"></span>
+                <span className="cd-nav-icon"></span>
                 <svg
                     x="0px"
                     y="0px"
@@ -29,28 +30,28 @@ const NavBar = () => {
                         stroke-dashoffset="157"
                     ></circle>
                 </svg>
-            </a>
+            </NavLink>
 
-            <div id="cd-nav" class="cd-nav">
-                <div class="cd-navigation-wrapper" id="cd-navigation-wrapper">
-                    <div class="cd-half-block">
+            <div id="cd-nav" className="cd-nav">
+                <div className="cd-navigation-wrapper" id="cd-navigation-wrapper">
+                    <div clasclassName="cd-half-block">
                         <h2 className="text-white">Navigation</h2>
 
                         <nav>
-                            <ul class="cd-primary-nav">
+                            <ul className="cd-primary-nav">
                                 <li>
-                                    <a href="#0" class="selected">
+                                    <NavLink to="/" className="selected">
                                         Home
-                                    </a>
+                                    </NavLink>
                                 </li>
                                 <li>
-                                    <a href="#0">Our services</a>
+                                    <NavLink to="/services">Our services</NavLink>
                                 </li>
                                 <li>
-                                    <a href="#0">Our projects</a>
+                                    <NavLink to="/">Our projects</NavLink>
                                 </li>
                                 <li>
-                                    <a href="#0">Contact us</a>
+                                    <NavLink to="/">Contact us</NavLink>
                                 </li>
                             </ul>
                         </nav>
