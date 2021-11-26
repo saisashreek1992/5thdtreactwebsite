@@ -2,3 +2,9 @@
     padding: 8rem;
     margin: 5rem;
 }
+
+.team-img {
+    width: 14rem !important;
+    height: auto;
+    margin: auto;
+}

@@ -40,18 +40,51 @@ const NavBar = () => {
                         <nav>
                             <ul className="cd-primary-nav">
                                 <li>
-                                    <NavLink to="/" className="selected">
+                                    <NavLink 
+                                    style={({ isActive }) => {
+                                        return {
+                                            color: isActive ? "#FAFAFA" : "",
+                                        };
+                                      }}
+                                    to="/home">
                                         Home
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to="/services">Our services</NavLink>
+                                    <NavLink
+                                      style={({ isActive }) => {
+                                        return {
+                                            color: isActive ? "#FAFAFA" : "",
+                                        };
+                                      }}
+                                     to="/about">About</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to="/">Our projects</NavLink>
+                                    <NavLink
+                                      style={({ isActive }) => {
+                                        return {
+                                            color: isActive ? "#FAFAFA" : "",
+                                        };
+                                      }}
+                                     to="/services">Our services</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to="/">Contact us</NavLink>
+                                    <NavLink
+                                      style={({ isActive }) => {
+                                        return {
+                                            color: isActive ? "#FAFAFA" : "",
+                                        };
+                                      }}
+                                     to="/">Our projects</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink
+                                      style={({ isActive }) => {
+                                        return {
+                                            color: isActive ? "#FAFAFA" : "",
+                                        };
+                                      }}
+                                     to="/">Contact us</NavLink>
                                 </li>
                             </ul>
                         </nav>
