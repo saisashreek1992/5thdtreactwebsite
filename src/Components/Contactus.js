@@ -10,7 +10,7 @@ const Contactus = (props) => {
   return (
     <div className="container-fluid">
       <Header />
-      <div className="row col px-5 my-3 ">
+      <div className="row col px-5 my-5 ">
         <font className="service_item_head">Contact Us</font>
         <div className="col-lg-11  col px-5 my-3">
           <div className="row px-5 my-3 ">

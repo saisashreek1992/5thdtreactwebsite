@@ -7,7 +7,7 @@ import Logo from '../Assets/img/logo/logo.png';
 
 const Footer = () => {
     return (
-        <div className='row'>
+        <div className='row px-5 my-5 '>
             <div className='col'>
                 <div className='container'>
                     <div className='row'>

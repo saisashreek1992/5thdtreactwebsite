@@ -8,7 +8,7 @@ body{
 }
 
 .team-img {
-    width: 25rem !important;
+    width: 14rem !important;
     height: auto;
     margin: 0;
     align-items: center;
@@ -45,13 +45,15 @@ body{
   }
 
 .card{
-  height:430px !important  ;
+
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  height:100% !important
 }
 .card:hover{
     transform: scale(1.05);
     box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
     transition: 1s;
+    border-radius:40px;
     
 }
   .card_head{
