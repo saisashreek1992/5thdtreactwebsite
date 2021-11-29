@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import Logo from "../../Assets/img/logo/logo.png";
 
@@ -9,7 +9,7 @@ const SubHeader = () => {
             <div className="col-12 px-5 my-2 align-self-start">
                 <div className="container">
                     <div className="row position-relative align-self-start">
-                        <Link to="/home">
+                        <NavLink to="/home">
                             <div className="col-2 position-absolute align-self-start">
                                 <img
                                     src={Logo}
@@ -17,7 +17,7 @@ const SubHeader = () => {
                                     alt="5thdtlogo"
                                 />
                             </div>
-                        </Link>
+                        </NavLink>
                         <div className="col-10 mt-5 position-absolute align-self-center">
                             <h4 className="text-center p-5 mt-5">
                                 More Links
