@@ -6,8 +6,8 @@ const ServiceItem = (props) => {
         <div className="card">
             <div className="card-body">
                 <img src={logo} className="card-img-top" alt="logo" />
-                <h5 className="card-title">{props.serviceTitle}</h5>
-                <p className="card-text">
+                <h5 className="card_sub_head">{props.serviceTitle}</h5>
+                <p className="card_para">
                     {props.serviceInfo}
                 </p>
             </div>

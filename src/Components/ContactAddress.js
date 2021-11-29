@@ -21,7 +21,7 @@ const ContactAddress = () => {
         <div>
             <div className='row mt-3 pt-3'>
                 <div className='col'>
-                    <h5>Address Info</h5>
+                    <h5 className="footer_head">Address Info</h5>
                     <AddressList items={AddressInfoList} />
                 </div>
             </div>
