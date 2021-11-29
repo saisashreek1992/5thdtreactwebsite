@@ -1,3 +1,7 @@
+body{
+    background-color: #E8EAE6 !important;
+}
+
 .services {
     padding: 8rem;
     margin: 5rem;
@@ -10,3 +14,91 @@
     align-items: center;
     object-fit: contain;
 }
+
+.slider_center_image{
+    height:400px !important;
+  }
+  .what_we_do_head{
+    font-size:110px  !important;
+    font-weight: normal;
+  
+  }
+  .what_we_do_para{
+    font-size:20px  !important;
+    font-weight: normal;
+    margin:20px !important;
+    text-align: justify;
+  
+  }
+  
+  .service_item_head{
+    font-size:35px  !important;
+    font-weight: normal;
+  
+  }
+  .service_item_para{
+    font-size:16px  !important;
+    font-weight: normal;
+    margin:5px !important;
+    text-align: justify;
+  
+  }
+
+.card{
+  height:430px !important  ;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+    transition: 1s;
+    
+}
+  .card_head{
+    font-size:35px  !important;
+    font-weight: semibold;
+    color:#4B5D67 !important;
+  }
+
+  .card_sub_head{
+    font-size:18px  !important;
+    font-weight: normal;
+    font-weight: 600;
+    color:#4B5D67 !important;
+  }
+
+  .card_para{
+    font-size:14px  !important;
+    font-weight: normal;
+    text-align: justify !important;
+    color:#4B5D67 !important;
+  }
+
+
+  .footer_head{
+    font-size:23px  !important;
+    font-weight: semibold;
+  }
+
+  .footer_sub_head{
+    font-size:17px  !important;
+    font-weight: normal;
+    font-weight: 600;
+  }
+
+  .footer_para{
+    font-size:14px  !important;
+    font-weight: normal;
+  }
+
+  .footer_link{
+    font-size:14px  !important;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .footer_link:hover{
+    font-size:14px  !important;
+    font-weight: 600;
+    color:#1F1D36 !important
+  }

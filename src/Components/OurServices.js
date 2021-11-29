@@ -8,7 +8,7 @@ const OurServices = () => {
     return (
         <div className="row justify-content-start px-5 my-5 ">
             <center>
-                <h2 className="px-3 my-3">Our Services</h2>
+                <h2 className="px-3 my-3 card_head">Our Services</h2>
             </center>
             <ServiceList services = {ServiceLists}/>
         </div>

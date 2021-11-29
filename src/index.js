@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import './nav.css';
 import Services from './Components/Services'
 import About from './Components/Pages/About'

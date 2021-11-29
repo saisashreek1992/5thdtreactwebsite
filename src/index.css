@@ -11,31 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.slider_center_image{
-  height:400px !important;
-}
-.what_we_do_head{
-  font-size:120px  !important;
-  font-weight: normal;
-
-}
-.what_we_do_para{
-  font-size:24px  !important;
-  font-weight: normal;
-  margin:20px !important;
-  text-align: justify;
-
-}
-
-.service_item_head{
-  font-size:50px  !important;
-  font-weight: normal;
-
-}
-.service_item_para{
-  font-size:20px  !important;
-  font-weight: normal;
-  margin:20px !important;
-  text-align: justify;
-
-}
