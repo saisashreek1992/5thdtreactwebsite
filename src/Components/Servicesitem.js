@@ -26,7 +26,7 @@ return (
           </p>
           <div className="row justify-content-around px-5 my-5 ">
             <div className="col-lg-5 bg-dark ">
-              <img src={logo} className="card-img-top" />
+              <img src={logo} className="card-img-top" alt="" />
             </div>
         =
           </div>

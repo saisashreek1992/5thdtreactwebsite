@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../logo.svg";
+import '../Assets/styles.css';
 
 const ServiceItem = (props) => {
     return (
