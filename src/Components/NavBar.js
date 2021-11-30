@@ -3,11 +3,13 @@ import {NavLink} from "react-router-dom";
 
 const nav_show = () => {
     document.body.classList.toggle("navigation-is-open");
+    
 };
 
 const NavBar = () => {
     return (
         <div className="col-md-2  navbar">
+         
             <NavLink to="" className="cd-nav-trigger" onClick={nav_show}>
                 {" "}
                 Menu
@@ -31,7 +33,7 @@ const NavBar = () => {
                     ></circle>
                 </svg>
             </NavLink>
-
+          
             <div id="cd-nav" className="cd-nav">
                 <div className="cd-navigation-wrapper" id="cd-navigation-wrapper">
                     <div clasclassName="cd-half-block ">

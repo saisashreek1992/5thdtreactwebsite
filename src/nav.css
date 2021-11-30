@@ -43,6 +43,9 @@
       display:none;
     
     }
+    .cd-nav-trigger{
+      background: rgb(0, 0, 0);;
+    }
   }
   Main Components 
   
@@ -112,6 +115,7 @@
     height: 54px;
     width: 54px;
     border-radius: 50%;
+  
     /* image replacement */
     overflow: hidden;
     text-indent: 100%;
