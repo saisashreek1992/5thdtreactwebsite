@@ -1,5 +1,6 @@
 body{
-    background-color: #E8EAE6 !important;
+    background-color: #FFFFF7 !important;
+    overflow-x: hidden;
 }
 
 .services {
@@ -52,7 +53,7 @@ body{
 .card:hover{
     transform: scale(1.05);
     box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
-    transition: 1s;
+    transition: .3s;
     border-radius:40px;
     
 }
