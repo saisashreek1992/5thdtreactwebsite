@@ -6,6 +6,7 @@
     right:-150px;
     top:0%;
     border-radius:55%;
+    background: #000;
   
   }
   @media only screen and (min-width: 1910px) {
@@ -41,6 +42,9 @@
       border-radius:55%;
       display:none;
     
+    }
+    .cd-nav-trigger{
+      background: rgb(0, 0, 0);;
     }
   }
   Main Components 
@@ -110,8 +114,8 @@
     top: 20px;
     height: 54px;
     width: 54px;
-    background-color: #243040;
     border-radius: 50%;
+  
     /* image replacement */
     overflow: hidden;
     text-indent: 100%;
@@ -250,7 +254,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #243040;
+    background-color: #000000;
     visibility: hidden;
     -webkit-transition: visibility 0s 0.7s;
     -moz-transition: visibility 0s 0.7s;
@@ -259,7 +263,7 @@
   .cd-nav .cd-navigation-wrapper {
     /* all navigation content */
     height: 100%;
-    overflow-y: auto;
+    overflow: hidden;
     -webkit-overflow-scrolling: touch;
     padding: 40px 5% 40px calc(5% + 80px);
     /* Force Hardware Acceleration in WebKit */
@@ -281,6 +285,10 @@
     -webkit-transition-timing-function: cubic-bezier(0.86, 0.01, 0.77, 0.78);
     -moz-transition-timing-function: cubic-bezier(0.86, 0.01, 0.77, 0.78);
     transition-timing-function: cubic-bezier(0.86, 0.01, 0.77, 0.78);
+    position: absolute;
+    right:-5%;
+
+    width:100%;
   }
   .navigation-is-open .cd-nav {
     visibility: visible;
@@ -321,18 +329,14 @@
   }
   .cd-nav .cd-primary-nav {
     margin-top: 20px;
+    list-style-type: none;
   }
  a{
     font-size:17px !important;
     text-decoration: none  !important;
 
   }
-  a:hover{
-    font-size:19px !important;
-    text-decoration: none  !important;
-    color:white !important;
-
-  }
+ 
   .cd-nav .cd-primary-nav li {
     margin: 1.6em 0;
   }
@@ -385,6 +389,7 @@
     .cd-nav h2 {
       font-size: 1.5rem;
       margin-bottom: 5.6em;
+      left:-10%;
     }
     .cd-nav .cd-primary-nav li {
       margin: 2em 0;
@@ -422,4 +427,35 @@
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
     transform: translateX(0);
+  }
+
+  .nav_link_a{
+    color:white !important;
+    font-size: 40px !important;
+    text-decoration: none  !important;
+
+  }.un {
+    display: inline-block;
+  }
+  
+  .un::after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: rgb(255, 255, 255);
+    transition: 300ms;
+  }
+  
+  .un:hover::after {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 1170px) {
+    .nav_link_a{
+      color:white !important;
+      font-size: 25px !important;
+      text-decoration: none  !important;
+  
+    }
   }

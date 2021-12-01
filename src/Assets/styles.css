@@ -1,5 +1,6 @@
 body{
-    background-color: #E8EAE6 !important;
+    background-color: #FFFFF7 !important;
+    overflow-x: hidden;
 }
 
 .services {
@@ -14,36 +15,32 @@ body{
     align-items: center;
     object-fit: contain;
 }
-
+.brand-img{
+    width: auto !important;
+    height:90% !important;
+    margin: 0;
+    object-fit: contain;
+}
 .slider_center_image{
-    height:400px !important;
+    height:500px !important;
   }
-  .what_we_do_head{
-    font-size:110px  !important;
-    font-weight: normal;
-  
-  }
-  .what_we_do_para{
-    font-size:20px  !important;
-    font-weight: normal;
-    margin:20px !important;
-    text-align: justify;
-  
-  }
-  
-  .service_item_head{
-    font-size:35px  !important;
-    font-weight: normal;
-  
-  }
-  .service_item_para{
-    font-size:16px  !important;
-    font-weight: normal;
-    margin:5px !important;
-    text-align: justify;
-  
+  @media only screen and (min-width: 1910px) {
+    .slider_center_image{
+        height:640px !important;
+      }
   }
 
+  @media only screen and (max-width: 1110px) {
+    .slider_center_image{
+        height:300px !important;
+      }
+      .service_text::before{
+        font-size:17px !important;
+        color:black !important;
+        font-weight: 600;
+        margin:41px;
+    }
+  }
 .card{
 
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -52,55 +49,40 @@ body{
 .card:hover{
     transform: scale(1.05);
     box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
-    transition: 1s;
+    transition: .3s;
     border-radius:40px;
     
 }
-  .card_head{
-    font-size:35px  !important;
-    font-weight: semibold;
-    color:#4B5D67 !important;
-  }
 
-  .card_sub_head{
-    font-size:18px  !important;
-    font-weight: normal;
+.service_text{
+    font-size:57px !important;
+    color:black !important;
     font-weight: 600;
-    color:#4B5D67 !important;
-  }
+    margin:40px;
+    text-shadow: 0px 3px 0px #b2a98f,
+    0px 14px 10px rgba(0,0,0,0.15),
+    0px 24px 2px rgba(0,0,0,0.1),
+    0px 34px 30px rgba(0,0,0,0.1);
+}
+.service_text::before {
+    content: "Education";
+    animation: animate infinite 31s;
+     
+}
 
-  .card_para{
-    font-size:14px  !important;
-    font-weight: normal;
-    text-align: justify !important;
-    color:#4B5D67 !important;
-  }
+@keyframes animate {
 
+    0% {
+        content: "Hospitality";
+    }
 
-  .footer_head{
-    font-size:23px  !important;
-    font-weight: semibold;
-  }
-
-  .footer_sub_head{
-    font-size:17px  !important;
-    font-weight: normal;
-    font-weight: 600;
-  }
-
-  .footer_para{
-    font-size:14px  !important;
-    font-weight: normal;
-  }
-
-  .footer_link{
-    font-size:14px  !important;
-    font-weight: 600;
-    text-decoration: none;
-  }
-
-  .footer_link:hover{
-    font-size:14px  !important;
-    font-weight: 600;
-    color:#1F1D36 !important
-  }
+    25% {
+        content: "Application Development";
+    }
+    50% {
+        content: "2D Animation";
+    }
+    75% {
+        content: "UI & UX";
+    }
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './nav.css';
+import './Assets/nav.css';
+import './Assets/style/common.css';
 import Services from './Components/Services'
 import About from './Components/Pages/About'
 import Contactus from './Components/Contactus'
