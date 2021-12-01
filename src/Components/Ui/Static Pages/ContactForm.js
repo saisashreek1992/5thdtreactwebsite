@@ -1,8 +1,4 @@
 import React from "react";
-
-import ImgSlider from "./ImgSlider";
-import NavBar from "./NavBar";
-
 const ContactForm = () => {
   return (
     <div className="row col px-5 my-3 ">

@@ -1,12 +1,12 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import Header from './Header';
-import Whatwedo from './Whatwedo';
-import '../Assets/styles.css';
+import Header from '../../Common/Header';
+import Whatwedo from '../Static Pages/Whatwedo';
+import '../../../Assets/style/base.css';
 import Servicesitem from './Servicesitem'
 import ImgSlider from "./ImgSlider";
-import NavBar from "./NavBar";
-import Footer from './Footer';
+import NavBar from "../../Common/NavBar";
+import Footer from '../../Common/Footer';
 const Services = (props) => {
     return (
         <div className="container-fluid">

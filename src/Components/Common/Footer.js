@@ -1,9 +1,9 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 
-import ContactEmail from './ContactEmail';
-import ContactAddress from './ContactAddress';
-import Logo from '../Assets/img/logo/logo.png';
+import ContactEmail from '../Ui/Static Pages/ContactEmail';
+import ContactAddress from '../Ui/Static Pages/ContactAddress';
+import Logo from '../../Assets/img/logo/logo.png';
 
 const Footer = () => {
     return (

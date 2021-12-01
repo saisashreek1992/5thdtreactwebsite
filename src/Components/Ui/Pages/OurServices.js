@@ -1,5 +1,5 @@
 import React from "react";
-import  ServiceLists from "./data"
+import  ServiceLists from "../../Functional/data"
 import ServiceList from "./ServiceList";
 
 const OurServices = () => {

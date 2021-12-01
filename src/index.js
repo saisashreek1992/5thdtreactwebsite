@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './Assets/nav.css';
-import './Assets/style/common.css';
-import Services from './Components/Services'
-import About from './Components/Pages/About'
-import Contactus from './Components/Contactus'
+import './Assets/style/nav.css';
+import './Assets/style/font.css';
+import Services from './Components/Ui/Pages/Services'
+import About from './Components/Ui/Pages/About'
+import Contactus from './Components/Ui/Static Pages/Contactus'
 import App from './App';
 import {
   BrowserRouter as Router,

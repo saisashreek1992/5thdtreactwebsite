@@ -1,5 +1,5 @@
 import React from "react";
-import brand_img from "../Assets/img/branding.gif";
+import brand_img from "../../../Assets/img/branding.gif"
 
 const ImgSlider = () => {
   return (
