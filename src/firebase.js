@@ -14,7 +14,7 @@ var fireData = {
     appId: "1:288481227062:web:68cdc7056cf96a48d0c397",
     measurementId: "G-3T5NMW1FVF",
 };
-const app = initializeApp(fireData);
+var app = initializeApp(fireData);
 var db = getFirestore(app);
 
 export { db };
