@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-import Logo from "../../Assets/img/logo/logo.png";
+import Logo from "../../../Assets/img/logo/logo.png";
 
 const SubHeader = () => {
     return (

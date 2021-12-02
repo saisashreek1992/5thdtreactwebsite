@@ -1,5 +1,4 @@
 import React from "react";
-
 const ContactForm = () => {
     return (
         <div className="row col px-5 my-3 ">

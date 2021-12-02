@@ -1,8 +1,8 @@
 import React from "react";
-
-import "../Assets/styles.css";
-import NavBar from "./NavBar";
-import Header from "./Header";
+import { Link } from "react-router-dom";
+import '../../../Assets/style/base.css';
+import NavBar from "../../Common/NavBar";
+import Header from "../../Common/Header";
 import ContactEmail from "./ContactEmail";
 import ContactForm from "./ContactForm";
 import ContactAddress from "./ContactAddress";

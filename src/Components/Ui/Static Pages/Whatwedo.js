@@ -1,6 +1,5 @@
 import React from "react";
-
-
+import logo from '../../../logo.svg';
 const Whatwedo = () => {
     return (
         <div className="row justify-content-center">

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import TeamList from './TeamList';
-import logo from '../../logo.svg';
+import logo from '../../../logo.svg';
 
 const teamList = [
     {

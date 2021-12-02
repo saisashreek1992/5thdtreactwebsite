@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../logo.svg";
-import  ServiceLists from "./data"
+import logo from "../../../logo.svg";
+import  ServiceLists from "../../Functional/data"
 const Servicesitem = () => {
  
 return (

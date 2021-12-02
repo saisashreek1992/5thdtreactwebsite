@@ -1,7 +1,7 @@
 import React from "react";
 
 import ImgSlider from "./ImgSlider";
-import NavBar from "./NavBar";
+import NavBar from "../../Common/NavBar";
 
 const Banner = () => {
     return (
