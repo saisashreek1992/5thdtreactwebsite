@@ -3,7 +3,7 @@ import React from "react";
 const Whatwedo = () => {
     return (
         <div className="row justify-content-center">
-            <div className="col-md-11  ">
+            <div className="col-md-11">
                 <font className="what_we_do_head">What We Do</font>
             </div>
             <div className="col-lg-7">

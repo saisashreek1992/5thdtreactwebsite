@@ -36,7 +36,7 @@ const NavBar = () => {
           
             <div id="cd-nav" className="cd-nav">
                 <div className="cd-navigation-wrapper" id="cd-navigation-wrapper">
-                    <div clasclassName="cd-half-block ">
+                    <div className="cd-half-block ">
                         <h2 className="text-white">5thdt.com</h2>
                         <div className="row justify-content-end  ">
                             <div className="col-md-6 "> 
