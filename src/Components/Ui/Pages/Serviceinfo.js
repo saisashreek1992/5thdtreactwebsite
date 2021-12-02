@@ -1,10 +1,8 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import Header from '../../Common/Header';
-import Whatwedo from '../Static Pages/Whatwedo';
 import '../../../Assets/style/base.css';
 import Service from './Service'
-import ImgSlider from "./ImgSlider";
 import NavBar from "../../Common/NavBar";
 import Footer from '../../Common/Footer';
 
