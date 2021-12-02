@@ -1,5 +1,18 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
 body{
-    background-color: #FFFFF7 !important;
+    background-color: #ffffff !important;
     overflow-x: hidden;
 }
 
@@ -41,19 +54,33 @@ body{
         margin:41px;
     }
   }
-.card{
+.jelly_card{
 
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  height:100% !important
+  /* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
+  height:100% !important;
+  transition: 2s;
+  overflow:hidden;
+
 }
-.card:hover{
+
+
+.jelly_card:hover{
     transform: scale(1.05);
-    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
-    transition: .3s;
-    border-radius:40px;
-    
+    box-shadow:none;
+    transition: 1s;
+    overflow:hidden;
+    padding:4% ;
+    border-radius:92% 53% 40% 65% / 33% 53% 15% 53% ;
+
 }
 
+@keyframes example {
+      animation-name: example;
+  animation-duration:  5s;
+  animation-iteration-count:infinite;
+    from {   border-radius:92% 53% 40% 65% / 33% 53% 15% 53% ;}
+    to {}
+  }
 .service_text{
     font-size:57px !important;
     color:black !important;

@@ -1,13 +1,17 @@
 
 .navbar{
-  height:96% !important;
+  height:100% !important;
   position:fixed !important;
   z-index: 100 !important;
   right:-180px;
-  top:0%;
+  top:-4%;
   border-radius:55%;
   background: #000;
-
+  transition: 2s;
+}
+.navbar:hover{
+  border-radius:100% 0% 3% 98% / 52% 100% 0% 47%  ;
+  transition: .5s;
 }
 @media only screen and (min-width: 1910px) {
   .navbar{
