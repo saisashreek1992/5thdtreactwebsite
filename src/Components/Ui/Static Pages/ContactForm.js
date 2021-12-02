@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import {Form, Button}  from 'react-bootstrap';
 
+import { db } from '../../../firebase';
+
 const ContactForm = () => {
 
     const [fullName, setFullName] = useState('');
@@ -26,13 +28,20 @@ const ContactForm = () => {
 
     const contactSubmitHandler = (event) => {
         event.preventDefault();
-        const contactForm = {
+
+        db.collection('contact').add({
             name: fullName,
             email: email,
             subject: subject,
             info: message
-        };
-        console.log(contactForm);
+        })
+        .then(() => {
+            alert('We recieved your email and our team will get back shortly');
+        })
+        .catch((err) => {
+            alert(err.message);
+        });
+
         setFullName('');
         setEmail('');
         setSubject('');

@@ -24,12 +24,12 @@ const NavBar = () => {
                     <circle
                         fill="transparent"
                         stroke="#656e79"
-                        stroke-width="1"
+                        strokeWidth="1"
                         cx="27"
                         cy="27"
                         r="25"
-                        stroke-dasharray="157 157"
-                        stroke-dashoffset="157"
+                        strokeDasharray="157 157"
+                        strokeDashoffset="157"
                     ></circle>
                 </svg>
             </NavLink>
