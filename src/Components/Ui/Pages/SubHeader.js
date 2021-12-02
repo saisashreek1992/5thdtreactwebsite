@@ -13,7 +13,7 @@ const SubHeader = () => {
                             <div className="col-2 position-absolute align-self-start">
                                 <img
                                     src={Logo}
-                                    class="img-fluid w-5 h-0 order-first"
+                                    className="img-fluid w-5 h-0 order-first"
                                     alt="5thdtlogo"
                                 />
                             </div>

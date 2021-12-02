@@ -1,5 +1,6 @@
 import React from "react";
 import Banner_img from "../../../logo.svg";
+import {Link} from "react-router-dom";
 const Service = (props) => {
   return (
     <div className="row justify-content-center ">
@@ -7,28 +8,28 @@ const Service = (props) => {
         <img src={Banner_img} className="banner-img" alt="brand" />
       </div>
       <div className="row justify-content-around service-content">
-        <div class="col-md-4  px-5 my-5">
-          <li class="link-light">
-            <a href="#" class="link-light">
+        <div className="col-md-4  px-5 my-5">
+          <li className="link-light">
+          <Link to="">
               Launch Project
-            </a>
+              </Link>
           </li>
         </div>
-        <div class="col-md-3  px-5 my-5">
+        <div className="col-md-3  px-5 my-5">
           <span className="text-secondary fw-bold">Technologies : </span>
           <span className="text-white">Html5, Css3</span>
         </div>
-        <div class="col-md-4  px-5 my-5">
+        <div className="col-md-4  px-5 my-5">
           <span className="text-secondary fw-bold">Deliverables : </span>
           <span className="text-white">Concept, Illustration, Animation</span>
         </div>
 
         <div className="row justify-content-center px-5 my-5 ">
-          <div class="col-md-3  px-5 my-5 ">
-            <h1 className="text-light">Services Title</h1>
+          <div className="col-md-3  px-5 my-5 ">
+            <h1 className="text-light">Education</h1>
           </div>
 
-          <div class="col-md-7  px-5 my-5 ">
+          <div className="col-md-7  px-5 my-5 ">
             <p className="service-para">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

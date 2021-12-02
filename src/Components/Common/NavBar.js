@@ -1,7 +1,7 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
 
-const nav_show = () => {
+const Nav_show = () => {
     document.body.classList.toggle("navigation-is-open");
     
 };
@@ -10,7 +10,7 @@ const NavBar = () => {
     return (
         <div className="col-md-2  navbar">
          
-            <NavLink to="" className="cd-nav-trigger" onClick={nav_show}>
+            <NavLink to="" className="cd-nav-trigger" onClick={Nav_show}>
                 {" "}
                 Menu
                 <span className="cd-nav-icon"></span>
@@ -24,19 +24,16 @@ const NavBar = () => {
                     <circle
                         fill="transparent"
                         stroke="#656e79"
-                        stroke-width="1"
                         cx="27"
                         cy="27"
                         r="25"
-                        stroke-dasharray="157 157"
-                        stroke-dashoffset="157"
                     ></circle>
                 </svg>
             </NavLink>
           
             <div id="cd-nav" className="cd-nav">
                 <div className="cd-navigation-wrapper" id="cd-navigation-wrapper">
-                    <div clasclassName="cd-half-block ">
+                    <div className="cd-half-block ">
                         <h2 className="text-white">5thdt.com</h2>
                         <div className="row justify-content-end  ">
                             <div className="col-md-6 "> 
@@ -49,7 +46,7 @@ const NavBar = () => {
                                             color: isActive ? "#FAFAFA" : "",
                                         };
                                       }}
-                                    to="/home" onClick={nav_show} className="nav_link_a un">
+                                    to="/home" onClick={Nav_show} className="nav_link_a un">
                                         Home
                                     </NavLink>
                                 </li>
@@ -60,7 +57,7 @@ const NavBar = () => {
                                             color: isActive ? "#FAFAFA" : "",
                                         };
                                       }}
-                                     to="/about" onClick={nav_show}  className="nav_link_a un">About</NavLink>
+                                     to="/about" onClick={Nav_show}  className="nav_link_a un">About</NavLink>
                                 </li>
                                 <li>
                                     <NavLink
@@ -69,7 +66,7 @@ const NavBar = () => {
                                             color: isActive ? "#FAFAFA" : "",
                                         };
                                       }}
-                                     to="/services" onClick={nav_show}  className="nav_link_a un">Our services</NavLink>
+                                     to="/services" onClick={Nav_show}  className="nav_link_a un">Our services</NavLink>
                                 </li>
                                 {/* <li>
                                     <NavLink
@@ -78,7 +75,7 @@ const NavBar = () => {
                                             color: isActive ? "#FAFAFA" : "",
                                         };
                                       }}
-                                     to="/" onClick={nav_show}>Our projects</NavLink>
+                                     to="/" onClick={Nav_show}>Our projects</NavLink>
                                 </li> */}
                                 <li>
                                     <NavLink
@@ -87,7 +84,7 @@ const NavBar = () => {
                                             color: isActive ? "#FAFAFA" : "",
                                         };
                                       }}
-                                     to="/contactus" onClick={nav_show}  className="nav_link_a un"> Contact us</NavLink>
+                                     to="/contactus" onClick={Nav_show}  className="nav_link_a un"> Contact us</NavLink>
                                 </li>
                             </ul>
                         </nav>
