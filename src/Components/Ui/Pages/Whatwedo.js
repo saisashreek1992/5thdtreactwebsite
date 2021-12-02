@@ -1,5 +1,4 @@
 import React from "react";
-
 const Whatwedo = () => {
     return (
         <div className="row justify-content-center">

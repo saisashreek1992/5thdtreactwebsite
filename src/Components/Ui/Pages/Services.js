@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../../Common/Header';
-import Whatwedo from '../Static Pages/Whatwedo';
+import Whatwedo from '../Pages/Whatwedo';
 import '../../../Assets/style/base.css';
 import Servicesitem from './Servicesitem'
 import NavBar from "../../Common/NavBar";

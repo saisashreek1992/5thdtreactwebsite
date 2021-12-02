@@ -24,12 +24,9 @@ const NavBar = () => {
                     <circle
                         fill="transparent"
                         stroke="#656e79"
-                        strokeWidth="1"
                         cx="27"
                         cy="27"
                         r="25"
-                        strokeDasharray="157 157"
-                        strokeDashoffset="157"
                     ></circle>
                 </svg>
             </NavLink>
@@ -78,7 +75,7 @@ const NavBar = () => {
                                             color: isActive ? "#FAFAFA" : "",
                                         };
                                       }}
-                                     to="/" onClick={nav_show}>Our projects</NavLink>
+                                     to="/" onClick={Nav_show}>Our projects</NavLink>
                                 </li> */}
                                 <li>
                                     <NavLink

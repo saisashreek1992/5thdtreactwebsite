@@ -7,8 +7,7 @@ function App() {
 
   return (
     <div className="container-fluid">
-      
-      <nav_show/>
+
       <Header />
       <Banner />
       <OurServices />
