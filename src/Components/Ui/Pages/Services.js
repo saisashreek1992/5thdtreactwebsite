@@ -9,8 +9,8 @@ const Services = (props) => {
     return (
         <div className="container-fluid">
             <Header />
-            <div className="row col px-5 my-3 ">
-                <div className="col-lg-11 col px-5 my-3">
+            <div className="row ">
+                <div className="col-lg-11  px-3 my-3">
                     <Whatwedo />
                     <Servicesitem />
                 </div>

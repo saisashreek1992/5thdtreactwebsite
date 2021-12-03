@@ -6,7 +6,7 @@ const Servicesitem = () => {
   return (
     <>
       {ServiceLists.map((data, i) => (
-        <div className="row justify-content-around px-5 my-5  service-card" key={i}>
+        <div className="row justify-content-around service-card" key={i}>
           <div className="col-lg-3 col-sm-12  px-5 my-5 ">
             <img src={logo} className="card-img-top team-img " alt="logo" />
           </div>
@@ -20,10 +20,10 @@ const Servicesitem = () => {
               </Link>
             </p>
             <div className="row justify-content-around px-5 my-5 ">
-              <div className="col-lg-5  card jelly_card ">
+              <div className="col-lg-5  card jelly_card px-1 my-1 ">
                 <img src={logo} className="card-img-top team-img  " alt="" />
               </div>
-              <div className="col-lg-5 card jelly_card">
+              <div className="col-lg-5 card jelly_card px-1 my-1 ">
                 <img src={logo} className="card-img-top team-img  " alt="" />
               </div>
             </div>

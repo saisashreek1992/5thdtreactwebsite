@@ -28,6 +28,10 @@ const ContactForm = () => {
 
     const contactSubmitHandler = (event) => {
         event.preventDefault();
+    const success = () =>{
+        document.getElementById('success_msg').innerHTML='We recieved your email and our team will get back shortly';
+       
+    }
 
  
         addDoc(collection(db, "contact"), {
@@ -37,10 +41,10 @@ const ContactForm = () => {
             info: message
           })
         .then(() => {
-            alert('We recieved your email and our team will get back shortly');
+            success();
         })
         .catch((err) => {
-            alert(err.message);
+           // alert(err.message);
         });
 
         setFullName('');
@@ -50,8 +54,9 @@ const ContactForm = () => {
     };
 
     return (
-        <div className="row col px-5 my-3">
+        <div className="row ">
             <Form onSubmit={contactSubmitHandler}>
+                <span className="text-danger fw-bolder" id="success_msg"></span>
                 <Form.Group>
                     <Form.Label>Full Name</Form.Label>
                     <Form.Control 

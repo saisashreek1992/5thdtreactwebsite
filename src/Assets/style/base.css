@@ -63,6 +63,9 @@ body{
 
 }
 
+.justfy-text{
+    text-align: justify !important;
+}
 
 .jelly_card:hover{
     transform: scale(1.05);
@@ -114,10 +117,7 @@ body{
     }
 }
 
-.service-card:hover{
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22) !important;
-    border:1px solid rgba(122, 122, 122, 0.3) !important;
-}
+
 
 .banner-img{
     width:100% !important;

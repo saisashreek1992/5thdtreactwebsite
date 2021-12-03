@@ -3,7 +3,7 @@
   height:100% !important;
   position:fixed !important;
   z-index: 100 !important;
-  right:-180px;
+  right:-150px;
   top:-4%;
   border-radius:55%;
   background: #000;
@@ -47,6 +47,7 @@
     display:none;
   
   }
+  
   .cd-nav-trigger{
     background: rgb(0, 0, 0);;
   }
@@ -435,7 +436,7 @@ a{
 
 .nav_link_a{
   color:white !important;
-  font-size: 35px !important;
+  font-size: 30px !important;
   text-decoration: none  !important;
 
 }.un {

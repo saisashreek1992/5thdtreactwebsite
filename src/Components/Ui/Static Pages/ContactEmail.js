@@ -4,13 +4,13 @@ import React from 'react';
 const ContactEmail = () => {
     return (
         <div>
-            <div className='row'>
-                <div className='col'>
+            <div className='row '>
+                <div className='col-lg-12'>
                     <p className='text-secondary w-75'>Want To Collaborate??</p>
                     <h6 className="footer_sub_head">Work with us</h6>
                     <a href="emailto:info@5thdt.com" className="footer_link">info@5thdt.com</a>
                 </div>
-                <div className='col'>
+                <div className='col-lg-12'>
                     <p className='text-secondary w-75'>Want To Say Hi??</p>
                     <h6 className="footer_sub_head">Work with us</h6>
                     <a href="emailto:info@5thdt.com" className="footer_link">info@5thdt.com</a>

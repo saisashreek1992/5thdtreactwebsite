@@ -5,7 +5,7 @@ import ServiceList from "./ServiceList";
 const OurServices = () => {
   
     return (
-        <div className="row justify-content-start px-5 my-5 ">
+        <div className="row justify-content-start px-3 my-3 ">
             <center>
                 <h2 className="px-5 my-5 card_head">Our Services</h2>
 

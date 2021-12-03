@@ -10,10 +10,10 @@ const About = () => {
         <div>
             <SubHeader />
             <div className="row">
-                <div className="col-4 p-5 mt-5">
+                <div className="col-md-4">
                     <h5 className="px-5 mt-5 display-4 text-capitalize">This is About Page</h5>
                 </div>
-                <div className="col-6 p-5 mt-5">
+                <div className="col-md-6 ">
                     <p className="text-justify pt-2 mt-5">
                         Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the
