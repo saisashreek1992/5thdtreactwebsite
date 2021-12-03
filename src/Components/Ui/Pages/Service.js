@@ -8,28 +8,28 @@ const Service = (props) => {
         <img src={Banner_img} className="banner-img" alt="brand" />
       </div>
       <div className="row justify-content-around service-content">
-        <div className="col-md-4  px-5 my-5">
+        <div className="col-md-4  px-2 my-2">
           <li className="link-light">
           <Link to="">
               Launch Project
               </Link>
           </li>
         </div>
-        <div className="col-md-3  px-5 my-5">
+        <div className="col-md-3  px-2 my-3">
           <span className="text-secondary fw-bold">Technologies : </span>
           <span className="text-white">Html5, Css3</span>
         </div>
-        <div className="col-md-4  px-5 my-5">
+        <div className="col-md-4  px-2 my-2">
           <span className="text-secondary fw-bold">Deliverables : </span>
           <span className="text-white">Concept, Illustration, Animation</span>
         </div>
 
         <div className="row justify-content-center px-5 my-5 ">
-          <div className="col-md-3  px-5 my-5 ">
+          <div className="col-md-2  px-2 my-2 ">
             <h1 className="text-light">Education</h1>
           </div>
 
-          <div className="col-md-7  px-5 my-5 ">
+          <div className="col-md-7  px-2 my-2 ">
             <p className="service-para">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
