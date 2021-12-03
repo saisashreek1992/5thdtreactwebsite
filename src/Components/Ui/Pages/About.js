@@ -1,7 +1,7 @@
 import React from "react";
 
-import Footer from '../../Components/Footer';
-import NavBar from "../NavBar";
+import Footer from '../../Common/Footer';
+import NavBar from "../../Common/NavBar";
 import Team from "./Team";
 import SubHeader from "./SubHeader";
 

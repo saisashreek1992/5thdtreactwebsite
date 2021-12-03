@@ -1,12 +1,13 @@
-import Header from './Components/Header';
-import Banner from './Components/Banner';
-import OurServices from './Components/OurServices';
-import Footer from './Components/Footer';
+import Header from './Components/Common/Header';
+import Banner from './Components/Ui/Pages/Banner';
+import OurServices from './Components/Ui/Pages/OurServices';
+import Footer from './Components/Common/Footer';
 
 function App() {
 
   return (
     <div className="container-fluid">
+
       <Header />
       <Banner />
       <OurServices />

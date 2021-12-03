@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './nav.css';
-import Services from './Components/Services'
-import About from './Components/Pages/About'
-import Contactus from './Components/Contactus'
+import './Assets/style/nav.css';
+import './Assets/style/font.css';
+import Services from './Components/Ui/Pages/Services'
+import About from './Components/Ui/Pages/About'
+import Contactus from './Components/Ui/Static Pages/Contactus'
+import Serviceinfo from './Components/Ui/Pages/Serviceinfo'
 import App from './App';
 import {
   BrowserRouter as Router,
@@ -24,6 +26,7 @@ ReactDOM.render(
       <Route path="/services" element={<Services />} />
       <Route path="/about" element={<About />} />
       <Route path="/contactus" element={<Contactus />} />
+      <Route path="/seviceinfo" element={<Serviceinfo />} />
     </Routes>
     
   </Router>,

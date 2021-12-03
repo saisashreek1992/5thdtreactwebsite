@@ -1,8 +1,7 @@
 import React from "react";
-
-import "../Assets/styles.css";
-import NavBar from "./NavBar";
-import Header from "./Header";
+import '../../../Assets/style/base.css';
+import NavBar from "../../Common/NavBar";
+import Header from "../../Common/Header";
 import ContactEmail from "./ContactEmail";
 import ContactForm from "./ContactForm";
 import ContactAddress from "./ContactAddress";
@@ -14,14 +13,14 @@ const Contactus = (props) => {
                 <font className="service_item_head">Contact Us</font>
                 <div className="col-lg-11  col px-5 my-3">
                     <div className="row px-5 my-3 ">
-                        <div class="col-lg-6 ">
+                        <div className="col-lg-6 ">
                             <ContactEmail />
                         </div>
-                        <div class="col-lg-6">
+                        <div className="col-lg-6">
                             <ContactAddress />
                         </div>
 
-                        <div class="col-lg-10 px-5 my-3 bg-dark">
+                        <div className="col-lg-10 px-5 my-3 bg-dark">
                             <ContactForm />
                         </div>
                     </div>

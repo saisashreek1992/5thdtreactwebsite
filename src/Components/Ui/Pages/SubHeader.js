@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-import Logo from "../../Assets/img/logo/logo.png";
+import Logo from "../../../Assets/img/logo/logo.png";
 
 const SubHeader = () => {
     return (
@@ -13,7 +13,7 @@ const SubHeader = () => {
                             <div className="col-2 position-absolute align-self-start">
                                 <img
                                     src={Logo}
-                                    class="img-fluid w-5 h-0 order-first"
+                                    className="img-fluid w-5 h-0 order-first"
                                     alt="5thdtlogo"
                                 />
                             </div>

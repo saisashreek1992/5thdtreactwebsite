@@ -8,7 +8,7 @@ const TeamList = (props) => {
       <h6 className="text-center display-5">This is Team List Section</h6>
       <div className="col-md-10">
         <div className="row">
-          <div className="col-md-6 p-5">
+          <div className="col-md-6 p-5 " >
             <TeamItem
               teamImg={props.teams[0].teamImg}
               teamName={props.teams[0].teamName}
@@ -24,7 +24,7 @@ const TeamList = (props) => {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-3 px-3 my-3">
+          <div className="col-md-3 px-3 my-3 ">
             <TeamItem
               teamImg={props.teams[2].teamImg}
               teamName={props.teams[2].teamName}

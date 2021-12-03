@@ -1,17 +1,14 @@
-import React from 'react';
-import {Link} from "react-router-dom";
-
-import '../Assets/styles.css';
+import React from "react";
 
 import ImgSlider from "./ImgSlider";
-import NavBar from "./NavBar";
+import NavBar from "../../Common/NavBar";
 
-const About = () => {
+const Banner = () => {
     return (
         <div className="row">
 
             <div className="col-lg-11">
-              
+                <ImgSlider />
             </div>
             <div className="col-lg-1">
                 <NavBar />
@@ -20,5 +17,4 @@ const About = () => {
     );
 };
 
-
-export default About;
+export default Banner;
