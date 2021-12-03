@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import {Form, Button}  from 'react-bootstrap';
-
+import { collection, addDoc } from "firebase/firestore"; 
 import { db } from '../../../firebase';
-
+export { db } 
 const ContactForm = () => {
 
     const [fullName, setFullName] = useState('');
@@ -29,12 +29,13 @@ const ContactForm = () => {
     const contactSubmitHandler = (event) => {
         event.preventDefault();
 
-        db.collection('contact').add({
+ 
+        addDoc(collection(db, "contact"), {
             name: fullName,
             email: email,
             subject: subject,
             info: message
-        })
+          })
         .then(() => {
             alert('We recieved your email and our team will get back shortly');
         })
