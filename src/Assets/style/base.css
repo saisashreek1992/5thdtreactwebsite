@@ -27,6 +27,7 @@ body {
     margin: 0;
     align-items: center;
     object-fit: contain;
+    --webkit-object-fit: contain;
 }
 .brand-img {
     width: auto !important;
